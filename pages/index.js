@@ -69,7 +69,7 @@ console.log("data:"+JSON.stringify(data))
 
         <div className="prompt-container">
         <p className='prompt-label'>Paste Your Bio Here</p>
-          <textarea rows="1" placeholder="Drivin' around in my lambo" className="prompt-box" value={userInput} onChange={aboutUserTextChange}/>
+          <textarea rows="1" placeholder="Hey I'm Joe and I love to play minecraft" className="prompt-box" value={userInput} onChange={aboutUserTextChange}/>
         </div>
 
         <div className="prompt-buttons">
